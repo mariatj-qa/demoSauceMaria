@@ -16,10 +16,6 @@ describe('Login Functionality',{tags:['@demo']},()=>{
         cy.visit("https://www.saucedemo.com/")
     })
 
-    it.only('Login Positive - from Commands File',()=>{
-        cy.login()
-    })
-
 
     it('Login Positive - Data from test_data',()=>{
         loginPage.getLoginLogo().should('be.visible')
