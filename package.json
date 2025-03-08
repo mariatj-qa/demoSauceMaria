@@ -1,0 +1,17 @@
+{
+  "name": "demomariatj",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "scripts": {
+    "runDemo": "npx cypress run --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "dependencies": {
+    "fsevents": "^2.3.3"
+  },
+  "description": ""
+}
