@@ -3,16 +3,26 @@
   "version": "1.0.0",
   "main": "cypress.config.js",
   "scripts": {
-    "runDemo": "npx cypress run --browser chrome"
+    "runDemo": "npx cypress run --browser chrome",
+    "report": "mocha --reporter mochawesome"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^14.1.0",
-    "cypress-mochawesome-reporter": "^3.8.2"
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "fs-extra": "^10.0.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-report-generator": "^5.0.0"
   },
-  "dependencies": {
-    "fsevents": "^2.3.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariatj-qa/demoSauceMaria.git"
   },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/mariatj-qa/demoSauceMaria/issues"
+  },
+  "homepage": "https://github.com/mariatj-qa/demoSauceMaria#readme",
   "description": ""
 }
